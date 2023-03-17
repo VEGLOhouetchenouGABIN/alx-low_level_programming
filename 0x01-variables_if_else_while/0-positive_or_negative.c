@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 int main() {
-srand(time(NULL));  // initialize random seed
-int n = rand() % 201 - 100;  // generate random number between -100 and 100
-printf("%d ", n);  // print the number    
+srand(time(NULL));
+int n = rand() % 201 - 100;
+printf("%d ", n);    
 if (n > 0) {
 printf("is positive\n");
 } else if (n == 0) {
