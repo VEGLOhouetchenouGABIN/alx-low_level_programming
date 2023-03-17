@@ -1,2 +1,4 @@
 #!/bin/bash
-BASENAME=$(basename "$CFILE" .c) & gcc -c "$CFILE" -o "$BASENAME.o"
+CFILE="main.c"
+OUTPUT="${CFILE%.*}.o"
+gcc -c "$CFILE" -o "$OUTPUT"
