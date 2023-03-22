@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main function
- * count fibonacci
+ * main - prints the first 50 numbers in the Fibonacci sequence
  *
+ * Return: Always 0
  */
 int main(void)
 {
@@ -17,5 +17,4 @@ fib1 = fib2;
 fib2 = nextTerm;
 }
 printf("\n");
-return 0;
 }
