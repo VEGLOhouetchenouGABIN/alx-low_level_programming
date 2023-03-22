@@ -2,6 +2,10 @@
 /**
  * print_alphabet_x10 - prints the alphabet in lowercase ten times followed by a newline
  */
+int _putchar(char c)
+{
+return putchar(c);
+}
 void print_alphabet_x10(void)
 {
 char letter;
