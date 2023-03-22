@@ -17,4 +17,5 @@ fib1 = fib2;
 fib2 = nextTerm;
 }
 printf("\n");
+return (0);
 }
