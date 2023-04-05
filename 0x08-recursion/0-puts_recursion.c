@@ -1,4 +1,3 @@
-0-PUTS_RECURSION.C CODE
 #include "main.h"
 /**
  * _puts_recursion - function like puts();
